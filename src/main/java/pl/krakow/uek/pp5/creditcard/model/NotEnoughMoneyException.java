@@ -1,4 +1,4 @@
 package pl.krakow.uek.pp5.creditcard.model;
 
-public class NotEnoughMoneyException {
+public class NotEnoughMoneyException extends Throwable{
 }
