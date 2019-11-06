@@ -23,6 +23,9 @@ public class CreditCard {
 
     public void withdraw(BigDecimal money) {
         balance = balance.subtract(money);
+        if (balance.compareTo(money) == 1) {
+            throw new NotEnoughMoneyException();
+        }
     }
 
     public BigDecimal getCurrentBalance() {
