@@ -1,4 +1,4 @@
-package pl.jkan.banking.creditcard;
+package pl.krakow.uek.pp5.creditcard.model;
 
 import org.junit.Assert;
 import org.junit.Test;

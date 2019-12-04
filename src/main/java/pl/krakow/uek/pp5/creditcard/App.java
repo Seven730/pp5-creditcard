@@ -1,7 +1,7 @@
 package pl.krakow.uek.pp5.creditcard;
 
-public class app {
+public class App {
     public static void main(String[] args) {
-        System.out.println("Co tam?");
+        System.out.println("It works :)");
     }
 }
